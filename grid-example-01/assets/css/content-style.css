@@ -7,7 +7,7 @@ body {
   font-family: "Muli", sans-serif;
   background-color: #000;
 }
-section.header-content article {
+section.header-content {
   text-align: center;
   padding-top: 90px;
 }
