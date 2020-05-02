@@ -1,0 +1,35 @@
+body {
+  padding: 10px 20px;
+  margin: 0px;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  color: #222;
+  font-family: "Muli", sans-serif;
+  background-color: #000;
+}
+section.header-content article {
+  text-align: center;
+  padding-top: 90px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+h1 {
+  font-weight: 300;
+  font-size: 38px;
+}
+p.left {
+  text-align: left;
+  font-size: 19px;
+  color: #444;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+p.right {
+  font-size: 12px;
+  text-align: right;
+  color: #333;
+  font-weight: 400;
+
+}
