@@ -9,12 +9,39 @@
       rel="stylesheet"
     />
     <style>
-      
+        body{
+            padding:0px;
+            margin:0px;
+        }
+        main{
+            display:grid;
+            height:100vh;
+            row-gap:1px;
+            column-gap: 1px;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+        }
+        .item{
+            background-color: #bbb;
+        }
+        .s1{
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+            grid-row: 1/3;
+        }
+        .s5{
+            /* grid-column-start: 2;
+            grid-column-end: -1; */
+            grid-column:2/-1;
+        }
     </style>
   </head>
   <body>
     <main>
-      
+      <section class="s1 item">s1</section>
+      <section class="s2 item">s2</section>
+      <section class="s3 item">s3</section>
+      <section class="s4 item">s4</section>
+      <section class="s5 item">s5</section>
     </main>
   </body>
 </html>
