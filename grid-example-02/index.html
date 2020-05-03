@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Example 02</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/content-style.css">
+    <style>
+      .item {
+        display: grid;
+        align-items: end;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        column-gap: 1px;
+        row-gap: 1px;
+      }
+
+      .s1 {
+        grid-row: 1/3;
+      }
+      .s5 {
+        grid-column: 2/-1;
+      }
+
+      .s1 header {
+        align-self: start;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="s1 item">
+        <header>
+          <h1>The<br />Magnificent<br />Aerosmith</h1>
+        </header>
+        <article>
+          <h1>I Don't Want to Miss a Thing</h1>
+          <p>Aerosmith on <span class="date">May 03.2020</span></p>
+        </article>
+      </section>
+      <section class="s2 item item-mini">
+        <article>
+          <h1>Sweet Emotion</h1>
+          <p>Aerosmith on <span class="date">May 03.2020</span></p>
+        </article>
+      </section>
+      <section class="s3 item item-mini">
+        <article>
+          <h1>Dream On</h1>
+          <p>Aerosmith on <span class="date">May 03.2020</span></p>
+        </article>
+      </section>
+      <section class="s4 item item-mini">
+        <article>
+          <h1>Walk This Way</h1>
+          <p>Aerosmith on <span class="date">May 03.2020</span></p>
+        </article>
+      </section>
+      <section class="s5 item">
+        <article>
+          <h1>Back in the Saddle</h1>
+          <p>Aerosmith on <span class="date">May 03.2020</span></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
