@@ -1,0 +1,85 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #eee;
+  font-family: "Muli", sans-serif;
+}
+main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section.login {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 1fr 12fr;
+  width: 1100px;
+  height: 650px;
+  background-color: #fff;
+  box-shadow: 10px 10px 26px -20px rgba(0, 0, 0, 0.9);
+}
+
+section.login aside {
+  grid-row: 1 / -1;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  display: grid;
+}
+section.login header {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #bbb;
+}
+
+section.login h1 {
+  font-weight: 400;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 30px;
+  color: #444;
+}
+section.login p {
+  padding: 0px 100px;
+  text-align: center;
+  line-height: 1.8em;
+  color: #888;
+}
+
+section.login fieldset {
+  border: 0px;
+}
+
+section.login label {
+  display: block;
+  color: #888;
+}
+
+section.login input {
+  height: 33px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+section.login fieldset:nth-child(3) {
+  text-align: center;
+}
+
+section.login button {
+  margin-top: 15px;
+  height: 45px;
+  width: 130px;
+  font-size: 16px;
+  border: 0px;
+  background-color: #eee;
+  color: #777;
+}
+
+section.login button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  color: #555;
+}
