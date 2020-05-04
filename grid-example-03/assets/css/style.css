@@ -23,7 +23,7 @@ section.login {
 
 section.login aside {
   grid-row: 1 / -1;
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/pbg.jpg");
   background-size: cover;
   display: grid;
 }
